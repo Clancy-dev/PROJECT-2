@@ -1,0 +1,35 @@
+.rightperfect{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.name{
+    color: yellow;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: transform 0.7s ease;
+}
+.bx:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+.bx{
+    cursor: pointer;
+}
+button{
+    width: 120px;
+    height: 60px;
+    font-size: 1.4rem;
+    border: 5px solid brown;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.014);
+    cursor: pointer;
+}
